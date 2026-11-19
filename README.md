@@ -2,7 +2,7 @@
 
 Cronômetro simples com contagem de horas, minutos e segundos, feito para praticar manipulação do DOM e eventos em JavaScript.
 
-🔗 **Acesse aqui:** [link do GitHub Pages]
+🔗 **Acesse aqui:** https://arthur-ltz.github.io/Timer-JS/
 
 ## Funcionalidades
 
