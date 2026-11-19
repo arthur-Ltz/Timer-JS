@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+    font-size: 150px;
+    font-family: monospace;
+    background-color: black;
+
+    .container-clock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100dvh;
+        width: 100%;
+        gap: 4rem;
+
+        .box-clock {
+            display: flex;
+        }
+
+        .box-btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            gap: 5rem;
+
+            .btn {
+                padding: 3rem;
+                aspect-ratio: 1 / 1;
+                border-radius: 50%;
+                font-size: 1.5rem;
+                font-weight: bold;
+                font-family: monospace;
+                width: 8rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: transform 0.3s ease;
+            }
+            .btn:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+
+
+}
